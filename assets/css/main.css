@@ -1,0 +1,107 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+body{
+    overflow-x :hidden;
+}
+/** header-wrapper css **/
+.header-wrapper{
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    padding: 2rem;
+    z-index: 9999;
+    position: relative;
+}
+/** mask container css */
+.mask-container{
+    background-color: rgba(74, 172, 196, 0.9);
+    position: absolute;
+    z-index: 999;
+    height: 100vh;
+    top : 0;
+    width: 100%;
+}
+.mask-row{
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+}
+.mask-col{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.mask-col h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.play{
+    background: #fff;
+    color: #000;
+    width: 100%;
+    border-radius: 0;
+    margin-top: 2rem;
+    padding: 1.5rem 5rem;
+    font-size: 2rem;
+}
+/** user variant css **/
+.variants-row .variant{
+    cursor: pointer;
+}
+.variant-opponent{
+    display: none;
+}
+.highlight img{
+    border: 3px solid red;
+}
+.score-row{
+    margin: 0 auto;
+    display: inline;
+}
+.score-row span{
+    display: inline;
+    color: rgba(74, 172, 196, 1);
+}
+.score-row h4{
+    color: rgba(74, 172, 196, 1);
+}
+.score-div{
+    margin-bottom: 4em;
+}
+/** results css **/
+h3.result{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    color: red;
+}
+.results-wrapper{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    z-index: 99999;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    display: none;
+}
+.results{
+    position: relative;
+    z-index: 999999;
+    top: 30%;
+    text-align: center;
+}
+.result-headings{
+    display: inline;
+}
+.results .row{
+    text-align: center;
+}
+.results h2{
+    color: #fff;
+}
+h2.win-result, h2.lost-result{
+    display: none;
+}
