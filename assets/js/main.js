@@ -38,7 +38,7 @@ $(document).ready(function()
         event.preventDefault();
         $.ajax(
         {
-            url: '/controller/gameControl.php',
+            url: './controller/gameControl.php',
             type: 'post',
             dataType: "json",
             data: { 
